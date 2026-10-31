@@ -1,0 +1,15 @@
+{
+  "site_id": "Urbana",
+  "latitude": 40.763960462877,
+  "longitude": -89.7398359674323,
+  "source": "USDA Soil Data Access",
+  "mukeys": [
+    "208979"
+  ],
+  "selected_component": "Fayette",
+  "component_percentage": "95",
+  "horizon_count": 4,
+  "retrieved_utc": "2026-10-31T04:11:06.066599+00:00",
+  "apsim_ready": false,
+  "apsim_modified": false
+}

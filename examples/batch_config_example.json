@@ -1,0 +1,13 @@
+{
+  "stress_threshold": 0.8,
+  "runs": [
+    {
+      "run_id": "IL_2001_mid000",
+      "site": "Illinois example",
+      "year": 2001,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "../phase3_native_test/SCE_Phase3_2001_mid000.db"
+    }
+  ]
+}

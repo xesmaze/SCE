@@ -1,0 +1,17 @@
+{
+  "n_report_days": 365,
+  "n_season_days": 139,
+  "n_stage_segments": 12,
+  "sowing_date": "2001-04-12",
+  "harvest_date": "2001-08-28",
+  "stage_definition": "contiguous daily APSIM StageName intervals",
+  "stress_interpretation": "raw APSIM-reported stress-factor values; no assumed stress severity conversion",
+  "aggregation": "Rain/Radn/ThermalTime sums; other columns means (non-null observations); daily values preserved",
+  "pre_sowing_included": false,
+  "source_database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/phase3_native_test/SCE_Phase3_2001_mid000.db",
+  "outputs": {
+    "daily": "daily_phenology.csv",
+    "stages": "stage_summary.csv",
+    "covariates": "stage_covariates.csv"
+  }
+}

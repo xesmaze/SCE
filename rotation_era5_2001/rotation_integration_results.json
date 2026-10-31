@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "apsim_returncode": 0,
+  "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/rotation_era5_2001/IL_2001_mid000_drill.db",
+  "report_rows": 365,
+  "sowing_date_requested": "2001-04-12",
+  "cultivar": "mid000",
+  "population": 40,
+  "row_spacing_mm": 190,
+  "sowing_depth_mm": 30,
+  "previous_crop_scenario": "corn",
+  "tillage_scenario": "no-till",
+  "planting_method_scenario": "drill",
+  "fertilizer_manager_enabled": false,
+  "tillage_manager_enabled": false
+}

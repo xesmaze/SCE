@@ -1,0 +1,25 @@
+{
+  "provider": "Open-Meteo Historical Weather API",
+  "dataset": "era5",
+  "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=40.763960462877&longitude=-89.7398359674323&start_date=2001-01-01&end_date=2010-12-31&daily=temperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cshortwave_radiation_sum&timezone=UTC&temperature_unit=celsius&precipitation_unit=mm&models=era5",
+  "requested_latitude": 40.763960462877,
+  "requested_longitude": -89.7398359674323,
+  "returned_latitude": 40.75,
+  "returned_longitude": -89.75,
+  "returned_elevation_m": 194.0,
+  "start_date": "2001-01-01",
+  "end_date": "2010-12-31",
+  "days": 3652,
+  "timezone": "GMT",
+  "units": {
+    "temperature_2m_max": "\u00b0C",
+    "temperature_2m_min": "\u00b0C",
+    "precipitation_sum": "mm",
+    "shortwave_radiation_sum": "MJ/m\u00b2"
+  },
+  "tav_C": 11.6897,
+  "amp_C": 27.0145,
+  "source_sha256": "65e6018e546f77af92768466f5393cb2ef4a5964ac9db277c986544475bc9427",
+  "met_sha256": "d11beb380258712d7107794321b0d059d316dd2ce4850736432089aa979b5501",
+  "note": "TAV and AMP are calculated from the requested years, not a long-term baseline."
+}

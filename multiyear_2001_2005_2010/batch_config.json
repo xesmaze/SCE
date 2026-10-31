@@ -1,0 +1,29 @@
+{
+  "stress_threshold": 0.8,
+  "runs": [
+    {
+      "run_id": "IL_2001_mid000",
+      "site": "Illinois example",
+      "year": 2001,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2001_mid000/IL_2001_mid000.db"
+    },
+    {
+      "run_id": "IL_2005_mid000",
+      "site": "Illinois example",
+      "year": 2005,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2005_mid000/IL_2005_mid000.db"
+    },
+    {
+      "run_id": "IL_2010_mid000",
+      "site": "Illinois example",
+      "year": 2010,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2010_mid000/IL_2010_mid000.db"
+    }
+  ]
+}

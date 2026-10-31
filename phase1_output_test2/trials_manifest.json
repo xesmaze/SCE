@@ -1,0 +1,51 @@
+{
+  "format": "sce-v2-trials-v1",
+  "source_file": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/examples/trials_example.csv",
+  "trial_count": 3,
+  "resolved_maturity_class_count": 2,
+  "maturity_class_policy": "Only explicit early/mid/late maturity classes resolve; raw maturity groups remain unresolved.",
+  "trials": [
+    {
+      "trial_id": "Trial_A_2017",
+      "site": "Trial_A",
+      "planting_date": "2017-04-12",
+      "year": 2017,
+      "latitude": 47.449,
+      "longitude": 8.682,
+      "crop": "soybean",
+      "genetics": "mid000",
+      "maturity_class": "mid000",
+      "weather_file": "",
+      "soil_file": "",
+      "_extras": {}
+    },
+    {
+      "trial_id": "Trial_B_2017",
+      "site": "Trial_B",
+      "planting_date": "2017-05-04",
+      "year": 2017,
+      "latitude": 40.101,
+      "longitude": -88.22,
+      "crop": "soybean",
+      "genetics": "midII",
+      "maturity_class": "midII",
+      "weather_file": "",
+      "soil_file": "",
+      "_extras": {}
+    },
+    {
+      "trial_id": "Trial_C_2018",
+      "site": "Trial_C",
+      "planting_date": "2018-05-10",
+      "year": 2018,
+      "latitude": 40.101,
+      "longitude": -88.22,
+      "crop": "soybean",
+      "genetics": "II",
+      "maturity_class": "",
+      "weather_file": "",
+      "soil_file": "",
+      "_extras": {}
+    }
+  ]
+}

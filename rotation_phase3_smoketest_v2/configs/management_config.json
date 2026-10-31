@@ -1,0 +1,15 @@
+{
+  "trials": {
+    "IL_2001_mid000": {
+      "maturity_class": "mid000",
+      "planting_date": "2001-04-12",
+      "simulation_start": "2001-01-01",
+      "simulation_end": "2001-12-31",
+      "row_spacing_m": 0.19,
+      "sowing_depth_mm": 30.0,
+      "population_plants_m2": 40.0,
+      "fertilise_at_sowing": false,
+      "tillage": false
+    }
+  }
+}

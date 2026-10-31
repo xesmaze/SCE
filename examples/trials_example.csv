@@ -1,0 +1,4 @@
+Site,Planting,Latitude,Longitude,Crop,Genetics,trial_id
+Trial_A,04/12/2017,47.449,8.682,soybean,mid000,Trial_A_2017
+Trial_B,2017-05-04,40.101,-88.220,soybean,midII,Trial_B_2017
+Trial_C,2018-05-10,40.101,-88.220,soybean,II,Trial_C_2018

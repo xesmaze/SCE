@@ -1,0 +1,57 @@
+{
+  "schema_version": "SCE-batch-1.0",
+  "config": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/batch_config.json",
+  "config_sha256": "da6e7d512be9173abced052777c0c8e105e63c9ad1351f29bc6ee2d5e51d64ec",
+  "n_runs": 3,
+  "stress_threshold": 0.8,
+  "aggregation": "Phase 4 unmodified; comparison rows are contiguous stage segments, not merged phenophases",
+  "stage_classification": "harvest_transition excluded only from stage_comparison, retained in batch_daily/stages/covariates",
+  "input_provenance": [
+    {
+      "run_id": "IL_2001_mid000",
+      "site": "Illinois example",
+      "year": 2001,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2001_mid000/IL_2001_mid000.db",
+      "sha256": "56abfccc8a8dad18b5504171195bbbc1fd3e3b212c17647f22630ee3d9344da8",
+      "simulation_id": null,
+      "source_report_rows": 365,
+      "season_days": 139,
+      "stage_segments": 12
+    },
+    {
+      "run_id": "IL_2005_mid000",
+      "site": "Illinois example",
+      "year": 2005,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2005_mid000/IL_2005_mid000.db",
+      "sha256": "54717d489a0cfb88523832b347088fcc6c22007d9654ce2b1d41bfab72463a83",
+      "simulation_id": null,
+      "source_report_rows": 365,
+      "season_days": 123,
+      "stage_segments": 12
+    },
+    {
+      "run_id": "IL_2010_mid000",
+      "site": "Illinois example",
+      "year": 2010,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2010_mid000/IL_2010_mid000.db",
+      "sha256": "4f69c987539fb8f194348a1be441f0646f1abaddea5c06dcda0ba0fc6a3eda9c",
+      "simulation_id": null,
+      "source_report_rows": 365,
+      "season_days": 138,
+      "stage_segments": 12
+    }
+  ],
+  "outputs": [
+    "batch_daily.csv",
+    "batch_stages.csv",
+    "batch_covariates.csv",
+    "stage_comparison.csv",
+    "run_summary.csv"
+  ]
+}

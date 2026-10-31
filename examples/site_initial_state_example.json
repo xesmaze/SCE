@@ -1,0 +1,7 @@
+{
+  "nitrogen_units": "ppm",
+  "water_units": "mm/mm",
+  "no3_ppm": [10.0, 8.0],
+  "nh4_ppm": [2.0, 1.5],
+  "water_mm_mm": [0.22, 0.24]
+}

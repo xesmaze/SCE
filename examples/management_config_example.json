@@ -1,0 +1,26 @@
+{
+  "trials": {
+    "Trial_A_2017": {
+      "maturity_class": "mid000",
+      "planting_date": "2017-04-12",
+      "simulation_start": "2017-03-01",
+      "simulation_end": "2017-10-01",
+      "population_plants_m2": 40,
+      "row_spacing_m": 0.50,
+      "sowing_depth_mm": 30,
+      "manager_edits": [
+        {
+          "manager_name": "REPLACE_WITH_ACTUAL_SOWING_MANAGER_NAME",
+          "code_replacements": [
+            {"old": "EXACT_OLD_CULTIVAR_EXPRESSION", "new": "EXACT_NEW_EXPRESSION_WITH_mid000"},
+            {"old": "EXACT_OLD_SOW_DATE_EXPRESSION", "new": "EXACT_NEW_EXPRESSION_WITH_2017-04-12"},
+            {"old": "EXACT_OLD_POPULATION_EXPRESSION", "new": "EXACT_NEW_EXPRESSION_WITH_40"},
+            {"old": "EXACT_OLD_ROW_SPACING_EXPRESSION", "new": "EXACT_NEW_EXPRESSION_WITH_0.50"},
+            {"old": "EXACT_OLD_DEPTH_EXPRESSION", "new": "EXACT_NEW_EXPRESSION_WITH_30"}
+          ]
+        }
+      ],
+      "required_code_tokens": ["mid000", "2017-04-12", "40", "0.50", "30"]
+    }
+  }
+}
