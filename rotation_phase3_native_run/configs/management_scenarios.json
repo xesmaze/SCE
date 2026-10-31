@@ -1,0 +1,27 @@
+{
+  "format": "sce-v2-rotation-presets-v1",
+  "trials": {
+    "IL_2001_mid000": {
+      "planting_method": "drill",
+      "row_spacing_m": 0.19,
+      "sowing_depth_mm": 30.0,
+      "population_plants_m2": 40.0,
+      "previous_crop": "corn",
+      "tillage_system": "no_till",
+      "fertilise_at_sowing": false,
+      "tillage": false,
+      "tillage_implementation": "unconfigured",
+      "soil_state_policy": "use_existing_APSIM_profile",
+      "initial_N_policy": "use_existing_APSIM_profile",
+      "depth_variability": "not_modeled",
+      "residue_initialization": "not_inferred_from_previous_crop",
+      "assumptions": [
+        "Planting geometry values are example targets, not field observations.",
+        "Previous crop is provenance only: does not assign residue mass or nitrogen pools.",
+        "Tillage choice is provenance only until a supported APSIM management operation is configured.",
+        "No-till/drill pairing is a configurable default, not a universal rule.",
+        "APSIM SowingDepth is one target value, not a seed-depth distribution."
+      ]
+    }
+  }
+}

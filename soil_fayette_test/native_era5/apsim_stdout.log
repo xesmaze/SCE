@@ -1,0 +1,19 @@
+----------------------------------------------
+ERROR in file: /Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/soil_fayette_test/native_era5/Fayette_ERA5.apsimx
+Simulation name: Simulation
+Models.Core.SimulationException
+ ---> System.Exception: Soil water of 0.521 in layer 1 is above saturation of 0.453
+Soil water of 0.497 in layer 2 is above saturation of 0.453
+Soil water of 0.488 in layer 3 is above saturation of 0.453
+Soil water of 0.480 in layer 4 is above saturation of 0.453
+
+   at Models.Soils.Soil.Check(ISummary summary) in /__w/ApsimX/ApsimX/Models/Soils/Soil.cs:line 344
+   at Models.Soils.Soil.OnDoInitialSummary(Object sender, EventArgs e) in /__w/ApsimX/ApsimX/Models/Soils/Soil.cs:line 132
+   at Models.Clock.OnDoCommence(Object _, CommenceArgs e) in /__w/ApsimX/ApsimX/Models/Clock.cs:line 264
+   at Models.Core.Simulation.Run(CancellationTokenSource cancelToken) in /__w/ApsimX/ApsimX/Models/Core/Simulation.cs:line 244
+   --- End of inner exception stack trace ---
+   at Models.Core.Simulation.Run(CancellationTokenSource cancelToken) in /__w/ApsimX/ApsimX/Models/Core/Simulation.cs:line 253
+   at Models.Core.Run.SimulationDescription.Run(CancellationTokenSource cancelToken) in /__w/ApsimX/ApsimX/Models/Core/Run/SimulationDescription.cs:line 135
+   at APSIM.Shared.JobRunning.JobRunner.Run(IRunnable job) in /__w/ApsimX/ApsimX/APSIM.Shared/JobRunning/JobRunner.cs:line 226
+   at APSIM.Shared.JobRunning.JobRunner.RunActualJob(IRunnable job, IJobManager jobManager) in /__w/ApsimX/ApsimX/APSIM.Shared/JobRunning/JobRunner.cs:line 189
+ERRORS FOUND!!

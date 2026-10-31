@@ -1,0 +1,35 @@
+{
+  "schema_version": "sce-site-1.0",
+  "site": {
+    "site_id": "Urbana",
+    "latitude": 40.763960462877,
+    "longitude": -89.7398359674323,
+    "coordinate_system": "EPSG:4326"
+  },
+  "simulation": {
+    "start_year": 2001,
+    "end_year": 2010
+  },
+  "environment": {
+    "weather": {
+      "source": "era5",
+      "model": "era5",
+      "input_file": null,
+      "disclaimer": "ERA5 reanalysis estimates may differ from field weather-station observations."
+    },
+    "soil": {
+      "source": "gnatsgo",
+      "input_file": null,
+      "dataset": "USDA gNATSGO",
+      "acquisition_status": "not_started"
+    }
+  },
+  "management": {
+    "previous_crop": "corn",
+    "tillage": "no_till",
+    "planting_method": "drill",
+    "initialization_policy": "Record choices as initialization metadata; do not infer residue quantities or soil nitrogen."
+  },
+  "created_utc": "2026-10-30T22:48:11.448528-05:00",
+  "apsim_physiology_modified": false
+}

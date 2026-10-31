@@ -1,0 +1,23 @@
+name: SCE v2 Python and template integrity
+on:
+  pull_request:
+  push:
+    branches:
+      - release/sce-v2.0.0
+  workflow_dispatch:
+jobs:
+  python-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Python unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate staged SCE v2 cultivar configurations
+        run: python scripts/validate_sce_v2.py --repo .
+      - name: Test CLI help
+        run: python scripts/run_sce_v2.py --help
+      - name: Declare test scope
+        run: echo 'Checks template structure and pure-Python tools only. APSIM native execution must be tested separately on a runner with APSIM installed.'

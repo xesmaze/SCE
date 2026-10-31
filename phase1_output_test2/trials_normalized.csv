@@ -1,0 +1,4 @@
+trial_id,site,planting_date,year,latitude,longitude,crop,genetics,maturity_class,weather_file,soil_file
+Trial_A_2017,Trial_A,2017-04-12,2017,47.449,8.682,soybean,mid000,mid000,,
+Trial_B_2017,Trial_B,2017-05-04,2017,40.101,-88.22,soybean,midII,midII,,
+Trial_C_2018,Trial_C,2018-05-10,2018,40.101,-88.22,soybean,II,,,

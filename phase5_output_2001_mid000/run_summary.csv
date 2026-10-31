@@ -1,0 +1,2 @@
+run_id,site,year,cultivar,maturity_group,sowing_date,harvest_date,season_days,biological_segments,harvest_transition_days,rain_season_mm,thermal_time_season
+IL_2001_mid000,Illinois example,2001,mid000,000,2001-04-12,2001-08-28,139,11,1,307.0,1215.564205

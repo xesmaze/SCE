@@ -1,0 +1,31 @@
+{
+  "schema_version": "SCE-batch-1.0",
+  "config": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/examples/batch_config_example.json",
+  "config_sha256": "6cc21a6227737cce67c89b743c8e90598b6002b029bd5b433f93667ed15a3072",
+  "n_runs": 1,
+  "stress_threshold": 0.8,
+  "aggregation": "Phase 4 unmodified; comparison rows are contiguous stage segments, not merged phenophases",
+  "stage_classification": "harvest_transition excluded only from stage_comparison, retained in batch_daily/stages/covariates",
+  "input_provenance": [
+    {
+      "run_id": "IL_2001_mid000",
+      "site": "Illinois example",
+      "year": 2001,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/phase3_native_test/SCE_Phase3_2001_mid000.db",
+      "sha256": "5652115481e6a593a145a97c94ea5d978242ff963fa41cd196e7d2184cf4cb14",
+      "simulation_id": null,
+      "source_report_rows": 365,
+      "season_days": 139,
+      "stage_segments": 12
+    }
+  ],
+  "outputs": [
+    "batch_daily.csv",
+    "batch_stages.csv",
+    "batch_covariates.csv",
+    "stage_comparison.csv",
+    "run_summary.csv"
+  ]
+}

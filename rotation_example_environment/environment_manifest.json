@@ -1,0 +1,17 @@
+{
+  "format": "sce-v2-environment-v1",
+  "source_template": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/template_models/Soy_Template_v2.0_APSIM2026.apsimx",
+  "trial_count": 1,
+  "trials": [
+    {
+      "trial_id": "IL_2001_mid000",
+      "model_file": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/rotation_example_environment/IL_2001_mid000/IL_2001_mid000_environment.apsimx",
+      "maturity_class": "mid000",
+      "weather": {
+        "first_date": "2001-01-01",
+        "last_date": "2011-12-31"
+      },
+      "note": "Template-based example only; soil and weather not acquired or validated through Phase 2."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "SCE v2.0",
+  "source": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/template_models/Soy_Template.apsimx",
+  "output": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/template_models/Soy_Template_v2.0.apsimx",
+  "cultivar_count": 30,
+  "area_value_applied_all": 0.008,
+  "calibrated_grain_fill_factors": {
+    "mid000": 0.9,
+    "mid00": 0.8
+  },
+  "note": "Only mid000 and mid00 GrainFill changed; other GrainFill values are original SCE. AreaLargestLeaf is extrapolated across all maturity groups.",
+  "apsim_execution_verified": false
+}

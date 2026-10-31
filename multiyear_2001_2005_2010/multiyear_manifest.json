@@ -1,0 +1,55 @@
+{
+  "template": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/template_models/Soy_Template_v2.0_APSIM2026.apsimx",
+  "template_sha256": "944a96df1f50133e053043b4a686eb3ed3e1d5a3e2b20f6f13f405781be3867d",
+  "weather": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/template_models/z_12.met",
+  "weather_sha256": "fceafa36a769c35b9d92cf0263c6297c198e959b8a66336bc8a780a1a43e74b5",
+  "years": [
+    2001,
+    2005,
+    2010
+  ],
+  "cultivar": "mid000",
+  "sowing_month": 4,
+  "sowing_day": 12,
+  "population_plants_m2": 40.0,
+  "row_spacing_mm": 500.0,
+  "sowing_depth_mm": 30.0,
+  "fertiliser_enabled": false,
+  "tillage_enabled": false,
+  "apsim_executable": "/Applications/APSIM2026.10.8138.0.app/Contents/Resources/bin/Models",
+  "dry_run": false,
+  "diagnostic_only": "Inherited SCE example soil and 2001\u20132011 Illinois weather; not site-calibrated",
+  "runs": [
+    {
+      "run_id": "IL_2001_mid000",
+      "site": "Illinois example",
+      "year": 2001,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2001_mid000/IL_2001_mid000.db",
+      "model": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2001_mid000/IL_2001_mid000.apsimx",
+      "report_rows": 365
+    },
+    {
+      "run_id": "IL_2005_mid000",
+      "site": "Illinois example",
+      "year": 2005,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2005_mid000/IL_2005_mid000.db",
+      "model": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2005_mid000/IL_2005_mid000.apsimx",
+      "report_rows": 365
+    },
+    {
+      "run_id": "IL_2010_mid000",
+      "site": "Illinois example",
+      "year": 2010,
+      "cultivar": "mid000",
+      "maturity_group": "000",
+      "database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2010_mid000/IL_2010_mid000.db",
+      "model": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/IL_2010_mid000/IL_2010_mid000.apsimx",
+      "report_rows": 365
+    }
+  ],
+  "batch_config": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/multiyear_2001_2005_2010/batch_config.json"
+}

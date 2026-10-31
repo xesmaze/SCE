@@ -1,0 +1,16 @@
+{
+  "trials": {
+    "IL_2001_mid000": {
+      "previous_crop": "corn",
+      "tillage_system": "no_till",
+      "maturity_class": "mid000",
+      "planting_date": "2001-04-12",
+      "simulation_start": "2001-01-01",
+      "simulation_end": "2001-12-31",
+      "planting_method": "drill",
+      "population_plants_m2": 40,
+      "row_spacing_m": 0.19,
+      "sowing_depth_mm": 30
+    }
+  }
+}

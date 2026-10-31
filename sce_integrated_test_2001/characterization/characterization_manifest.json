@@ -1,0 +1,22 @@
+{
+  "n_report_days": 365,
+  "n_season_days": 119,
+  "n_stage_segments": 12,
+  "sowing_date": "2001-04-12",
+  "harvest_date": "2001-08-08",
+  "stage_definition": "contiguous daily APSIM StageName intervals",
+  "stress_interpretation": "raw APSIM-reported stress-factor values; no assumed stress severity conversion",
+  "aggregation": "Rain/Radn/ThermalTime sums; other columns means (non-null observations); daily values preserved",
+  "pre_sowing_included": false,
+  "harvest_transition_rule": "harvest-day Unreported retained in daily output, excluded from biological-stage summary flag only",
+  "stress_threshold": 0.8,
+  "stress_deficit_definition": "sum(1-factor) for observed factors in [0,1]; null if missing or invalid; threshold counts only observed factors < threshold",
+  "stress_factor_domain": "0 to 1; no assumed causal stress mechanism or validation of source variable",
+  "n_harvest_transition_days": 1,
+  "source_database": "/Users/elhan/PycharmProjects/DigitalFields/external/SCE-main/sce_integrated_test_2001/SCE_configured.db",
+  "outputs": {
+    "daily": "daily_phenology.csv",
+    "stages": "stage_summary.csv",
+    "covariates": "stage_covariates.csv"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "trials": {
+    "Trial_A_2017": {
+      "weather_file": "template_models/z_12.met",
+      "soil_file": "template_models/Soy_Template_v2.0_APSIM2026.apsimx",
+      "initial_state_file": "examples/site_initial_state_example.json"
+    }
+  }
+}

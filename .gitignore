@@ -3,3 +3,45 @@
 .RData
 .Ruserdata
 /output_files
+
+# APSIM simulation outputs
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+template_models/sce_runs/
+tests/cli_smoketest/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# macOS and PyCharm
+.DS_Store
+.idea/
+# APSIM generated results
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.runlog.txt
+*_daily.csv
+*_run_summary.json
+template_models/sce_runs/
+tests/cli_smoketest/
+
+# DigitalFields experimental runs
+template_models/DF_H_*.apsimx
+template_models/DF_H_*.png
+
+# Local release archives
+SCE_v2_PyCharm_Release_Files_*.zip
+
+# Python and PyCharm
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.DS_Store
