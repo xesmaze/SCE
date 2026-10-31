@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scepy"
+version = "2.0.0rc2"
+description = "Seasonal Characterization Engine with APSIM Next Generation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "CC-BY-NC-SA-4.0"
+keywords = ["APSIM", "agroecology", "crop-modeling", "environmental-characterization"]
+classifiers = ["Programming Language :: Python :: 3", "Intended Audience :: Science/Research", "Topic :: Scientific/Engineering"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/xesmaze/SCE"
+Repository = "https://github.com/xesmaze/SCE"
+
+[project.scripts]
+scepy = "sce.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sce", "sce.*"]
+
+[tool.setuptools.package-data]
+sce = ["_cli_tools/*.py", "assets/*.apsimx"]
